@@ -1,0 +1,73 @@
+body {
+  justify-content: center;
+  background-color: #393e46;
+  text-align: center;
+}
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  font-size: 2rem;
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.title {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+/* button */
+.button {
+  margin-top: 5rem;
+}
+
+.btn-outline-success {
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  border-color: #4ECCA3;
+  font-size: 2rem;
+}
+
+.btn-outline-success:hover {
+  color: red;
+  background-color: #4ECCA3;
+  border-color: #4ECCA3;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
+.show>.btn-outline-success.dropdown-toggle {
+  color: red;
+  background-color: #393e46;
+  border-color: red
+}
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+  box-shadow: 0 0 0 0;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0;
+}
